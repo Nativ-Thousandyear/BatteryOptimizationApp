@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/titleTextView"
+    android:text="@string/app_name"
+    android:textSize="24sp"
+    android:textColor="@color/primaryColor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<ImageView
+    android:id="@+id/batteryIconImageView"
+    android:src="@drawable/battery_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/battery_icon"/>
+
+<TextView
+    android:id="@+id/batteryPercentageTextView"
+    android:text="@string/_75"
+    android:textSize="18sp"
+    android:textColor="@color/primaryColor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/batteryUsageTitle"
+        android:text="@string/battery_usage_statistics"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/appUsageTextView"
+        android:text="@string/app_usage_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/screenOnTimeTextView"
+        android:text="@string/screen_on_time_4_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Add more TextView elements for other battery statistics -->
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/suggestionsRecyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>

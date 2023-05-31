@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Battery Optimization App</string>
+    <string name="battery_optimization_app">Battery Optimization App</string>
+    <string name="battery_icon">Battery Icon</string>
+    <string name="_75">75%</string>
+    <string name="battery_usage_statistics">Battery Usage Statistics</string>
+    <string name="app_usage_50">App Usage: 50%</string>
+    <string name="screen_on_time_4_hours">Screen On Time: 4 hours</string>
+</resources>
